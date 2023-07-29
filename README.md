@@ -1,11 +1,11 @@
 # autocomplete
 
-- [ ] поисковая строка, с помощью которого осуществляется поиск по мировым столицам
-- [ ] внутри строки есть крестик, который сбрасывает весь ввод
-- [ ] выпадающий список найденных вариантов, отображается при вводе минимум 3 символов
-- [ ] при клике на один из вариантов осуществляется автозаполнение поисковой строки
-- [ ] найденный паттерн ввода подсвечивается в каждом из вариантов в списке
-- [ ] ввод символом дебаунсится на 300мс
-- [ ] новый запрос работает асинхронно, на это время вместо списка отображается надпись "загружается"
-- [ ] запросы кешируются, перед запросом происходит поиск в кеше и только потом, если в кеше ничего нет, осуществяется запрос
-- [ ] ответ может вернуться с ошибкой, поэтому предусмотрены сообщения об ошибках
+- [ ] search box for searching world capitals
+- [ ] cleaning entered text after click on close button
+- [ ] showing list of options after 3 symbols typing
+- [ ] completing search box and hiding option list after click on option
+- [ ] highlighting matches in the list of results
+- [ ] debounce for 300ms
+- [ ] making asynchrones requests/ showing "loading" before resolving requests
+- [ ] using cached responses before make new requests
+- [ ] drawing error messages on broken requests
