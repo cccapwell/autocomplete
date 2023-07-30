@@ -1,0 +1,16 @@
+.wrapper {
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 38px 8px 12px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
